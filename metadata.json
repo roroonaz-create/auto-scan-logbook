@@ -1,0 +1,6 @@
+{
+  "name": "Auto-Scan Logbook",
+  "description": "Logbook scanning SPA using Gemini API to extract handwritten notes into an editable TSV format.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="scanBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Card -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  
+  <!-- Logbook Document Base -->
+  <rect x="116" y="96" width="280" height="320" rx="24" fill="#ffffff" opacity="0.95"/>
+  
+  <!-- Document Lines -->
+  <rect x="156" y="156" width="120" height="20" rx="10" fill="#2563eb"/>
+  <rect x="156" y="200" width="200" height="14" rx="7" fill="#94a3b8"/>
+  <rect x="156" y="232" width="160" height="14" rx="7" fill="#cbd5e1"/>
+  <rect x="156" y="264" width="200" height="14" rx="7" fill="#94a3b8"/>
+  <rect x="156" y="296" width="130" height="14" rx="7" fill="#cbd5e1"/>
+  <rect x="156" y="328" width="180" height="14" rx="7" fill="#94a3b8"/>
+  
+  <!-- Scanner Beam -->
+  <rect x="96" y="240" width="320" height="8" rx="4" fill="url(#scanBeam)"/>
+  <circle cx="256" cy="244" r="16" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="256" cy="244" r="8" fill="#ffffff"/>
+
+  <!-- AI / Scan Corner Frame -->
+  <path d="M 120 144 L 120 120 L 144 120" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 392 144 L 392 120 L 368 120" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 120 368 L 120 392 L 144 392" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 392 368 L 392 392 L 368 392" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
